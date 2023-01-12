@@ -1,19 +1,52 @@
-let nota=parseInt(prompt("Ingrese la calificacion a validar"));
-if(Number.isInteger(nota)){
-    if(nota=>10){
+let nota=parseInt(prompt("Ingrese una nota a validar"));
+if(Number.isNaN(nota)){
 
-        console.log("si es una nota valida")
+    alert("No es una nota valida")
+}else{
+    if(nota<=20&&nota>=1){
+        if(nota<=9){
+
+            console.log("La calificacion equivalente es E")
+        }else{
+            if(nota<=12){
+
+                console.log("La calificacion equivalente es D")
+            }else{
+                if(nota<=15){
+
+                    console.log("La calificacion equivalente es C")
+                }else{
+                    if(nota<=18){
+
+                        console.log("La calificacion equivalente es B")
+                    }else{
+                        if(nota<=20){
+
+                            console.log("La calificacion equivalente es A")
+                        }
 
 
+                    }
+
+
+                }
+
+
+            }
+
+
+            
+        }
 
 
     }else{
-        console.log("no es una nota valida en el rango 1 a 20")
-        alert("No es una calificacion valida")
+
+        alert("No es numero valido")
     }
 
 
-}else{
 
-    alert("No es una calificacion valida")
-}
+}   
+
+
+
