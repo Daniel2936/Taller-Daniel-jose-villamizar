@@ -6,9 +6,7 @@ if(numero1>=1&&numero1<=10){
         if(numero3>=1&&numero3<=10){
 
             let promedio=(numero1+numero2+numero3)/3
-            let verdadero="true"
-            let Falso="False"
-            let calculo=(promedio>5)?verdadero:Falso
+            let calculo=(promedio>5)?"true":"false"
             console.log(calculo)
 
 
