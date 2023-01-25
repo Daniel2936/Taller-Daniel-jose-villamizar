@@ -1,4 +1,4 @@
-variable=int(input("Ingrese un numero entero"))
+variable=int(input("Ingrese un numero entero "))
 if isinstance(variable,int) and variable>100:
     
     for i in range (variable,0,-1):
