@@ -5,7 +5,6 @@ const info={
     nombre:"Juanjo",
     edad:15,
     telefono:315789756
-
 }
 
 
