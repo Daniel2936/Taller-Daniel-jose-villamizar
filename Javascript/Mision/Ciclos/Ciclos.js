@@ -90,7 +90,14 @@ do {
     1. Venta de celulares segun marca
     2. No registrar mas ventas y mostral el total de las ventas`))
     if(Number.isInteger(opcionventa)&&opcionventa==1){
-        marcacel=prompt("Que marca desea vender")
+        marcacel=prompt(`Que marca desea vender
+        seleccione numero segun marca
+        1. Samsung
+        2- Iphone
+        3. Xiaomi
+        4. Motorola
+        5. HUawei
+        6. Oppo`)//falto arreglar las opciones con numeros
         switch (marcacel) {
             case s:
                 ventasam=parseFloat(prompt("Cuantos telefonos desea vender de la marca Samsung"))
