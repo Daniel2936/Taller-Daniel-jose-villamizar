@@ -1,0 +1,26 @@
+/* #container{
+    display: flex;
+} */
+
+#titulo{
+    color: rgb(99, 20, 173);
+    background-color: rgb(221, 222, 223);
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.cajas{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
