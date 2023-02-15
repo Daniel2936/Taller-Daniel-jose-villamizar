@@ -1,42 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+
+}
 html.body{
     height: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .contenedor{
-    display: grid;
-    justify-content: center;
-    grid-template-areas: 
-    "photo1 photo2 photo3 photo3"
-    "photo1 photo4 photo5 photo6"
-    "photo7 photo4 photo8 photo8";
-    gap: 10px;
+
+   height: 100%;
     
 }
 
 .foto{
-    display: flex;
-    justify-content: center;
-    background: cover;
-
-
-
-    
+    display: grid;
+    grid-template-areas: 
+    'photo1 photo2 photo3 photo3'
+    'photo1 photo4 photo5 photo6'
+    'photo7 photo4 photo8 photo8';
+    gap: 10px;
+    background-size: cover;
+    background-position: center;
+   
 
 
 }
 
 .photo1{
     grid-area: photo1;
-    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg);
+    background-image: url('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg');
 }
 
 .photo2{
     grid-area: photo2;
-    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 .photo3{
     grid-area: photo3;
-    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg);
+    background-image: url('https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg');
 }
 .photo4{
     grid-area: photo4;

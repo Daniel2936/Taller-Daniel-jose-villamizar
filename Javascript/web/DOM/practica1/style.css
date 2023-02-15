@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+
+}
+.titulo{
+    display: flex;
+    background-color: black;
+    font-size: large;
+    color:yellow;
+    
+}
+
+.contenedor{
+    height: 80%;
+    background-color:rgb(127, 196, 241);
+    font-size: large;
+    margin: 0px;
+    width: 30%;
+
+}

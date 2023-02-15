@@ -1,0 +1,26 @@
+
+body{
+    background-color: bisque;
+}
+#titulo{
+    color: rgb(99, 20, 173);
+    background-color: rgb(221, 222, 223);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.caja{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center; 
+}
+
+#submit{
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
+html.body{
+    height: 100%;
+}
+
+.titulo{
+    display: flex;
+    background-color: black;
+    font-size:large;
+    color: yellow;
+}
+
+
+.inferior{
+    background-color: rgb(185, 183, 183);
+    text-align: center;
+
+}
+
+.menu{
+    background-color: rgb(185, 183, 183);
+    width: 30%;
+    font-size: 20px;
+    display: flex;
+    border-collapse: collapse;
+    padding: 20px;
+
+}
+
+.pordentro{
+    display: flex;
+    flex-direction: row;
+}
+
+#relleno{
+    padding: 10px;
+}
+
+.item:hover{
+    background-color: blueviolet;
+    cursor: cell;
+}
+
