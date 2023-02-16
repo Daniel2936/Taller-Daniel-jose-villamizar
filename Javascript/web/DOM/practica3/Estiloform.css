@@ -8,6 +8,7 @@ body{
     margin: 10px;
     border-radius: 10px;
     padding: 10px;
+    
 
     display: flex;
     justify-content: center;
@@ -19,8 +20,51 @@ body{
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     justify-content: center; 
+    padding: 10px;
+   
 }
 
 #submit{
-    align-items: center;
+    display: flex;
+   justify-content: center;
+   padding: 10px;
 }
+
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap:2px
+    
+}
+
+#caja{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: large;
+    box-shadow: 10px 5px 5px rgb(0, 132, 255);
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+    
+
+}
+
+
+.circol{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    background-position: cover;
+}
+
+.texto{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
