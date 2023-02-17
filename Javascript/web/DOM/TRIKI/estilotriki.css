@@ -1,0 +1,40 @@
+/* * *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+
+}
+
+#cajamayor{
+    display: grid;
+    grid-template-areas:
+    'caja caja caja'
+    'caja caja caja'
+    'caja caja caja';
+    gap:2px;
+    margin: 50px;
+    padding: 50px;
+
+}
+
+.cajamenor{
+    
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid rgb(1, 109, 180);
+    border-radius: 25px;
+    height: 180px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgba(174, 0, 255, 0.466);
+  
+    
+}
