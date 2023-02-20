@@ -26,7 +26,6 @@ body{
 }
 
 .cajamenor{
-    
     display: flex;
     justify-content: space-around;
     border: 4px solid rgb(1, 109, 180);
@@ -35,6 +34,18 @@ body{
     width: 200px;
     padding: 20px;
     box-shadow: 10px 5px 5px rgba(174, 0, 255, 0.466);
-  
+
     
+}
+
+#forma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    font-size:1000%;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+		0 0 0.2em #87F;
+    color:blueviolet;
 }
