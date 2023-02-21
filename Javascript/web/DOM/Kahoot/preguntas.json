@@ -1,0 +1,57 @@
+{
+    "pregunta1":"¿Cuál es el río más largo del mundo?",
+    "opciones1":[
+        {
+            "a":"El rio nilo",
+            "b":"El rio amazonas",
+            "c":"El rio magdalena",
+            "d":"El rio orinoco"
+        }
+    ],
+    "respuesta1":"b",
+
+    "pregunta2":"¿Qué país tiene forma de bota?",
+    "opciones2":[
+        {
+            "a":"Italia",
+            "b":"España",
+            "c":"Rusia",
+            "d":"china"
+        }
+    ],
+    "respuesta2":"a",
+
+    "pregunta3":"¿Cuál fue el primer metal que empleó el hombre?",
+    "opciones3":[
+        {
+            "a":"Alumino",
+            "b":"Plomo",
+            "c":"Cobre",
+            "d":"Sodio"
+        }
+    ],
+    "respuesta3":"c",
+
+    "pregunta4":"¿De qué país es el futbolista Zlatan Ibrahimović?",
+    "opciones4":[
+        {
+            "a":"Marruecos",
+            "b":"Eslovenia",
+            "c":"Reino unido",
+            "d":"Suecia"
+        }
+    ],
+    "respuesta4":"d",
+
+    "pregunta5":"¿Cuál es la capital de Croacia?",
+    "opciones5":[
+        {
+            "a":"Berlin",
+            "b":"Zagreb",
+            "c":"Varsovia",
+            "d":"LIma"
+        }
+    ],
+    "respuesta5":"b"
+
+}
