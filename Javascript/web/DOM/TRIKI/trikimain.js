@@ -15,6 +15,7 @@ let matriz=[
     [" "," "," "]
 ]
 let contador=1;
+
 btn.addEventListener('click',function(){
 
     document.getElementById('caja1').innerHTML= ""
@@ -47,6 +48,7 @@ caja1.addEventListener('click',function(){
         let valor1=document.getElementById('caja1').innerText
         matriz[0][0]=valor1
         contador++
+    console.log(contador)
     }else{
         caja1.innerHTML=`<p id="forma">X</p>`
         let valor2=document.getElementById('caja1').innerText
