@@ -4,6 +4,7 @@
 const url='https://pokeapi.co/api/v2/pokemon/'
 
 const btn=document.getElementById('buscari')
+const data=document.getElementById('caracteristicas')
 
 
 
@@ -14,9 +15,9 @@ async function buscar(){
     const pokemon= document.getElementById('pokemon')
     const response =await fetch(url+pokemon.value)
     const data= await response.json()
-    imagen.innerHTML =`<img src="${data.sprites["front_default"]}"  />`
-    const datos=document.getElementById('caracteristicas')
-    datos.innerHTML=`<p>${data.abilities[0].value}</p>`
+    // imagen.innerHTML =`<img src="${data.sprites["front_default"]}"  />`
+    const {front_default}=data.sprites.other["official-artwork"]
+    imagen.innerHTML =`<img src="${front_default}"/>`
 
     console.log(data)
 
