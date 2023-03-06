@@ -8,53 +8,54 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="h-screen">
-    <div class="sm:flex flex-col ">
+    <div class="flex flex-col ">
         <!-- primer cuadro debajo -->
-        <div class="bg-emerald-500  p-[2%]">
-            <div class="flex   p-[6%] pt-[2%]">
-                <div class="flex justify-center"><img src="./svg/Frame 4.svg" alt=""></div>
-                <div class=" flex justify-center  text-lg  hidden sm:flex sm:justify-end sm:text-2xl text-white w-full ">
+        <div class="bg-emerald-500  ">
+            <div class="flex  p-[6%] pt-[2%]">
+                <div class="sm:w-[20%]"><img src="./svg/Frame 4.svg" class="sm:w-[90%] sm:h-[90%]"alt=""></div>
+                <div class=" pl-[40%] pt-[2%] sm:hidden"><img src="./svg/list 1.svg" alt=""></div>
+                <div class=" flex justify-center  text-lg  hidden sm:flex sm:justify-end sm:text-4xl text-white w-full ">
                     <button class="mr-[6%]">Home</button>
                     <button class="mr-[6%]">Portfolio</button>
                     <button class="mr-[6%]">Services</button>
                     <button class="mr-[6%]">Contact</button> 
                 </div>
             </div>
-            <div class="flex flex-col sm:flex sm:flex-row items-center p-[6%] pt-0">
-                <div class="order-2 sm:order-1 text-white sm:w-[35%]">
-                    <p class="font-bold  text-xl sm:text-2xl ">Welcome</p>
-                    <p class="text-6xl font-bold mt-[2%] tracking-normal sm:leading-snug font-serif">Lorem ipsum dolor sit amet consectetur</p>
-                    <p class="tracking-normal leading-normal text-2xl ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos,ab, dolor aperiam nobis cum est eos error ipsum, volupatate culpa nesciunt delectus iste?</p>
-                    <button class="bg-white text-xl text-black rounded-lg w-[15%]  mt-[5%]">Explore</button>
+            <div class="flex flex-col sm:flex  sm:flex-row items-center p-[6%] pt-0 pr-[3%] sm:w-[100%]">
+                <div class=" text-white sm:w-[40%] sm:pr-[5%] ">
+                    <p class="font-bold  text-lg sm:text-4xl tracking-widest">WELCOME</p>
+                    <p class="text-4xl sm:text-7xl font-bold pt-[3%] sm:pt-[3%] tracking-normal sm:leading-snug font-serif">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="tracking-normal leading-tight sm:leading-normal text-xl sm:text-3xl pt-[5%] ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos,ab, dolor aperiam nobis cum est eos error ipsum, volupatate culpa nesciunt delectus iste?</p>
+                    <button class="bg-white  text-xl text-black rounded-lg w-[30%] p-[2%] mt-[4%] sm:mt-[5%]">Explore</button>
                 </div>
-                <div class="  sm:w-[65%] sm:flex sm:justify-center "> <img src="./svg/Group.svg" class="" alt=""></div>
+                <div class=" sm:w-[70%] sm:pl-[10%] pb-[2%] order-first sm:order-last "> <img src="./svg/Group.svg" class="sm:w-[90%] sm:h-[90%]" alt=""></div>
             </div>
         </div>
         <!-- segundo cuadro debajo -->
         <div class=" flex justify-center items-center flex-col sm:p-[1%]">
-            <div class=" flex-col w-[30%] flex items-center">
-                <p class="text-2xl text-teal-400 font-bold pt-[10%] tracking-widest">PARTNERS</p>
-                <P class="sm:text-6xl font-bold pt-[3%] tracking-wide font-serif">Lorem Ipsum Dolor</P>
-                <p class=" sm:text-2xl pt-[2%] sm:tracking-wide sm:leading-loose text-center">Lorem Ipsum,dolor sit amet consectetur adipisicing elit.</p>
+            <div class=" flex-col w-[63%] sm:w-[30%] flex items-center">
+                <p class="text-lg sm:text-3xl text-teal-400 font-bold pt-[10%] tracking-widest">PARTNERS</p>
+                <P class=" text-2xl sm:text-6xl font-bold pt-[3%] tracking-wide font-serif">Lorem Ipsum Dolor</P>
+                <p class=" text-xl sm:text-3xl pt-[2%] tracking-wide sm:tracking-widest sm:leading-loose text-center">Lorem Ipsum,dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="sm:flex sm:flex-row  pt-[6%]  sm:pb-[2%] sm:w-[50%]">
-                <img src="./svg/XMLID_24_.svg" class="pr-[4%] w-[70%] h-[70%]" alt="">
-                <img src="./svg/XMLID_1_.svg" class="pr-[4%] w-[70%] h-[70%]" alt="">
-                <img src="./svg/XMLID_1_ (1).svg" class="pr-[4%] w-[70%] h-[70%]" alt="">
-                <img src="./svg/Group-1.svg"  class="pr-[4%] w-[70%] h-[70%]" alt="">
-                <img src="./svg/XMLID_1_ (2).svg" class=" w-[70%] h-[70%]" alt="">
+            <div class="grid  grid-rows-5 grid-cols-1 gap-8 sm:grid-rows-1 sm:grid-cols-5 sm:gap-10 pt-[6%] pb-[6%] sm:pb-[2%] w-[50%] sm:w-[90%]">
+                <img src="./svg/XMLID_24_.svg" class="sm:w-[90%] sm:h-[90%]" alt="">
+                <img src="./svg/XMLID_1_.svg" class="sm:w-[90%] sm:h-[90%]" alt="">
+                <img src="./svg/XMLID_1_ (1).svg" class="sm:w-[90%] sm:h-[90%]"  alt="">
+                <img src="./svg/Group-1.svg"  class="sm:w-[90%] sm:h-[90%]" alt="">
+                <img src="./svg/XMLID_1_ (2).svg" class="sm:w-[90%] sm:h-[90%]"  alt="">
             </div>
-            <button class="flex justify-center  text-2xl text-white bg-slate-900 rounded-lg sm:w-[13%]">Learn More</button>
+            <div class="flex justify-center  text-2xl sm:text-3xl text-white bg-slate-900 rounded-lg w-[40%] sm:w-[13%]  p-[1%] mt-[6%] sm:mt-[4%]"><button >Learn More</button></div>
         </div>
         <!-- tercer cuadro debajo -->
-        <div class="sm:w-[100%] sm:flex sm:justify-center p-[3%]">
-            <div class="w-[50%]">
-                <img src="./svg/Group_2.svg" alt="">
+        <div class="sm:w-[100%] sm:flex sm:justify-center p-[5%]">
+            <div class="w-[60%]">
+                <img src="./svg/Group_2.svg" class="sm:w-[90%] sm:h-[90%]" alt="">
             </div>
             <div class="sm:w-[40%] pl-[2%] pt-[4%]">
-                <p class="sm:text-6xl font-bold pt-[2%] tracking-wide text-slate-700 font-serif">Lorem ipsum dolor sit amet consectetur</p>
-                <p class="sm:text-xl pt-[4%] pb-[4%] text-slate-400">Lorem ipsum,dolor sit amet consectetur adipisicing elit. Suscipit nemohic quos, ab, dolor, aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                <button class="flex justify-center  text-2xl text-white bg-slate-900 rounded-lg sm:w-[25%]">Learn More</button>
+                <p class="text-4xl sm:text-7xl font-bold pt-[2%] tracking-wide text-slate-700 font-serif">Lorem ipsum dolor sit amet consectetur</p>
+                <p class="text-xl sm:text-3xl pt-[4%] pb-[4%] text-slate-400">Lorem ipsum,dolor sit amet consectetur adipisicing elit. Suscipit nemohic quos, ab, dolor, aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                <button class="flex justify-center  text-2xl sm:text-3xl text-white bg-slate-900 rounded-lg w-[50%] sm:w-[30%]  p-[2%] mt-[6%] sm:mt-[4%]">Learn More</button>
             </div>
         </div>
         <!-- cuarto cuadro debajo -->
@@ -62,7 +63,7 @@
             <div class="w-[40%] pt-[10%] pr-[3%]">
                 <p class="sm:text-6xl font-bold pt-[2%] tracking-wide  text-slate-700 font-serif" >Lorem ipsum dolor sit amet consectetur</p>
                 <p class="text-xl pt-[4%] pb-[4%] text-slate-400">Lorem ipsum,dolor sit amet consectetur adipisicing elit. Suscipit nemohic quos, ab, dolor, aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                <button class="flex justify-center  text-2xl text-white bg-slate-900 rounded-lg sm:w-[25%]">Learn More</button>
+                <button class="flex justify-center  sm:text-2xl text-white bg-slate-900 rounded-lg sm:w-[25%] p-[1%]">Learn More</button>
             </div>
             <div class="w-[50%] pl-[9%]">
                 <img src="./svg/Group-3.svg" alt="">
@@ -85,7 +86,7 @@
         </div>
         <!-- ultimo cuadro debajo -->
         <div class="bg-emerald-500 sm:w-[100%] m-0 p-[3%]">
-            <div class=" sm:flex sm:flex-col pl-[5%]  w-[50%]">
+            <div class=" sm:flex sm:justify-center sm:items-center sm:flex-col pl-[5%]  sm:w-[50%]">
                 <img src="./svg/Frame 30.svg" class="sm:w-[60%] " alt="">
                 <img src="./svg/© LOGO, 2019. All ri.svg" class="sm:w-[60%]" alt="">
             </div>
