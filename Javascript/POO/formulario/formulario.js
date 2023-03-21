@@ -20,21 +20,33 @@ const nombre=document.getElementById('nombre')
 const apellidos=document.getElementById('apellidos')
 const fechanac=document.getElementById('fechanac')
 const cedula=document.getElementById('cedula')
+const formulario=document.getElementById('formulario')
 let fechaactual=new Date()
-
 const lista=[]
 
+formulario.addEventListener("submit", form);
+
+function form(event) {
+  event.preventDefault();
+}
 
 btn.addEventListener('click',function(){
 
-    function name(params) {
+        let fechaper=new Date(fechanac.value)
+        let edad=(fechaactual.getFullYear())-(fechaper.getFullYear())
+        const persona=new Persona(cedula.value,nombre.value,apellidos.value,fechanac.value,edad)
         
-    }
+        if(nombre.value!=" "&& apellidos.value!=" " &&fechanac.value!=" "&&cedula.value!=""){
+            lista.push(persona)
+            console.log(lista)
+            nombre.value=" "
+            apellidos.value=" "
+            fechanac.value=" "
+            cedula.value=" " 
+         }
 
-    const persona=new Persona(cedula.value,nombre.value,apellidos.value,fechanac.value)
+        
+    
 
-    lista.push(persona)
 
-
-    console.log(lista)
 })
