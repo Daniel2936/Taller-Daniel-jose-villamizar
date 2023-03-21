@@ -8,17 +8,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="h-screen">
-    <div class="w-[100%]">
+    <div class="w-[100%] flex flex-col">
         <div class="flex-col flex justify-content items-center pt-[12%]">
             <p class="text-xl font-bold text-black">FORMULARIO</p>
-            <form  id="formulario" action="#">
-                <p label for ='nombre' class="text-lg font-bold text-black">Nombre: <input id='nombre'  type="text" required ></p>
-                <p label for ='apellidos'>Apellidos: <input id='apellidos'  type="text" required></p>
-                <p label for ='fechanac'>Fecha-nacimiento: <input id='fechanac'  type="date" required></p>
-                <p label for ='cedula'>Cedula: <input id='cedula'  type="text" required></p>
+            <form  id="formulario">
+                <p label for ='nombre' class="text-lg font-bold text-black">Nombre: </p> <input  id='nombre'  type="text" required >
+                <p label for ='apellidos'>Apellidos: </p> <input id='apellidos'  type="text" required>
+                <p class="text-lg font-semibold">Fecha de nacimiento</p><input class="border-solid border-2 border-blue-500/75" id="fechadenaciemiento" type="date" required>
+                <p label for ='cedula'>Cedula: </p><input id='cedula'  type="text" required>
 
             <div class="flex justify-content items-center"><button id="submit" class="text-lg font-semibold text-orange-800 bg-green-200" type="submit">Guardar</button></div>
             </form> 
+        </div>
+        <div class="flex gap-[1rem] w-[100%] justify-center items-center">
+            <div id="nombrecompleto" ></div>
+            <div id="cumple"></div>
         </div>
     </div>
     
