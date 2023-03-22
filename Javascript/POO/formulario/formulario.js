@@ -36,26 +36,33 @@ function form(event) {
   let anonaci=fechaper.getFullYear()
   let mesnaci=fechaper.getMonth()+1
   let dianaci=fechaper.getDate()+1
-  console.log(anonaci,mesnaci,dianaci)
-        let edad=(fechaactual.getFullYear())-(fechaper.getFullYear())
-        const persona=new Persona(cedula.value,nombre.value,apellidos.value,fechadenacimiento.value,edad)
+  if(anoactual>=anonaci&&mesactual>=mesnaci&&diaactual>=dianaci){
+    console.log(anonaci,mesnaci,dianaci)
+    let edad=(fechaactual.getFullYear())-(fechaper.getFullYear())
+    const persona=new Persona(cedula.value,nombre.value,apellidos.value,fechadenacimiento.value,edad)
         
-        lista.push(persona)
-        console.log(lista)
-        cajanombre.innerHTML+=`<p>${nombre.value}  ${apellidos.value}</p>`
-        if(anoactual==anonaci&&mesactual==mesnaci&&diaactual==dianaci){
-            cajacumple.innerHTML+=`<p>SI CUMPLE HOY</p>`
-            
-        }else{
-            cajacumple.innerHTML+=`<p>NO CUMPLE HOY</p>`
-        }
+    lista.push(persona)
+    console.log(lista)
+    cajanombre.innerHTML+=`<p>${nombre.value}  ${apellidos.value}</p>`
+    if(anoactual==anonaci&&mesactual==mesnaci&&diaactual==dianaci){
+        cajacumple.innerHTML+=`<p>SI</p>`           
+    }else{
+        cajacumple.innerHTML+=`<p>NO</p>`
+    }
+
+    nombre.value="" 
+    apellidos.value=""
+    fechadenacimiento.value=""
+    cedula.value="" 
 
 
-            nombre.value="" 
-            apellidos.value=""
-            fechadenacimiento.value=""
-            cedula.value="" 
 
+
+
+  }else{
+    alert('No es una fecha valida ingrese de nuevo los datos')
+  }
+  
 }
 
 // cuando le de la opcion buscar por medio de la cedula, la cual debe validar que solo ingrese numeros, debe mostrar nombre, apellidos fecha de nacimiento
