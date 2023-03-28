@@ -31,4 +31,10 @@ btn1.addEventListener("click",añadirtexto)
 
 
 
+const persona={
 
+    nombre:"juan"
+}
+
+persona.apellido="marintez"
+console.log(persona)
